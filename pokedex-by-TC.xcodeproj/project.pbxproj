@@ -12,6 +12,7 @@
 		AA8D71C61C999662004648DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8D71C41C999662004648DC /* Main.storyboard */; };
 		AA8D71C81C999662004648DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8D71C71C999662004648DC /* Assets.xcassets */; };
 		AA8D71CB1C999662004648DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8D71C91C999662004648DC /* LaunchScreen.storyboard */; };
+		AAB12D781C999C0E00A89BFB /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = AAB12D771C999C0E00A89BFB /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AA8D71C71C999662004648DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8D71CA1C999662004648DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8D71CC1C999662004648DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB12D771C999C0E00A89BFB /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		AA8D71BF1C999662004648DC /* pokedex-by-TC */ = {
 			isa = PBXGroup;
 			children = (
+				AAB12D771C999C0E00A89BFB /* pokemon.csv */,
 				AA8D71C01C999662004648DC /* AppDelegate.swift */,
 				AA8D71C21C999662004648DC /* ViewController.swift */,
 				AA8D71C41C999662004648DC /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				AA8D71CB1C999662004648DC /* LaunchScreen.storyboard in Resources */,
 				AA8D71C81C999662004648DC /* Assets.xcassets in Resources */,
+				AAB12D781C999C0E00A89BFB /* pokemon.csv in Resources */,
 				AA8D71C61C999662004648DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				AA8D71D11C999662004648DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
